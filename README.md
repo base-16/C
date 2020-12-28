@@ -1,2 +1,2 @@
 # c
-C lecture notes.
+Simple but useful C programs.
