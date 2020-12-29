@@ -1803,8 +1803,8 @@ char* return_line(char word[255]) {
 	int i = 0;
 	char c;
 	FILE *fp = fopen("/tmp/.file", "r") ;
-	while (fgets(line, sizeof(line), fp ) != NULL) {
-		if (strstr(line, word ) != NULL) {
+	while (fgets(line, sizeof(line), fp) != NULL) {
+		if (strstr(line, word) != NULL) {
 			fclose(fp);
 			return line;
 		}
